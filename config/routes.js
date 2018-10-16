@@ -44,7 +44,18 @@ module.exports.routes = {
   //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
   //  ╩ ╩╩  ╩  ╚═╝╝╚╝═╩╝╩  ╚═╝╩╝╚╝ ╩ ╚═╝
 
-
+  // 'GET /contact': 'ContactController.getAllContacts',
+  // 'POST /contact': 'ContactController.addContact',
+  // 'GET /contact/:id': {
+  //   view: 'pages/contact',
+  //   locals: {
+  //     contact: {
+  //       fullName: 'Nabila Diaz',
+  //       email: 'nabiladiaz@gmail.com'
+  //     }
+  //   }
+  // },
+  'GET /contact/:id': 'ContactController.getContact'
 
   //  ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═╔═╗
   //  ║║║║╣ ╠╩╗╠═╣║ ║║ ║╠╩╗╚═╗
