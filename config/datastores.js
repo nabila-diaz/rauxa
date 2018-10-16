@@ -51,7 +51,8 @@ module.exports.datastores = {
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
 
-  },
+    adapter: 'sails-mysql',
+    url: 'mysql://aws1rdsrauxa:probablyrauxa@rds-mysql-rauxa.cssjqvhcvgzq.us-east-2.rds.amazonaws.com/rauxa'
 
-
+  }
 };
